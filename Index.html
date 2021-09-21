@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos/index.css">
+    <script src="https://kit.fontawesome.com/fe3ec40ee8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <script defer src="script/index.js"></script>
+    <link rel="stylesheet" href="estilos/perfil.css">
+    <link rel="stylesheet" href="estilos/habilidades.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">PORTAFOLIO</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"><a href="#perfil" class="nav-menu-link nav-link">PERFIL</a></li>
+                <li class="nav-menu-item"><a href="#habilidades" class="nav-menu-link nav-link">HABILIDADES</a></li>
+                <li class="nav-menu-item"><a href="#proyec" class="nav-menu-link nav-link">PROYECTOS</a></li>
+                <li class="nav-menu-item"><a href="#contac" class="nav-menu-link nav-link">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding" id="perfil">
+        <section class="profile">
+
+            <div class="profile-info">
+                <div class="profile-title">
+                    <h2>Hola, soy</h2>
+                    <h1 class="profile-title-name">Mauricio Litter</h1>
+                    <h3>Estudiante de Ing. de Sistemas</h3>
+                </div>
+                <p class="profile-details">
+                    Estudio en la Universidad Nacional del Callao, cuento con amplios conocimientos en el desarrollo de aplicaciones web o escritorio aportando en el manejo de software como Venzin, Bizagi o sartUML. Me caracterizo por ser responsable, creativo y el buen
+                    trabajo. en equipo.
+                </p>
+                <a class="profile-btn" href="documen/CV.pdf" download>
+                    Descargar CV
+                </a>
+            </div>
+            <div class="profile-img-section">
+                <img class="perfil-img" src="fotos/perfil.jpg" alt="programador">
+                <div class="profile-img-line">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding" id="habilidades">
+        <section class="skills">
+            <h2 class="skills-title">HABILIDADES</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">JavaScript</li>
+
+                <li class="skills-skill">Java</li>
+                <li class="skills-skill">Python</li>
+                <li class="skills-skill">SQL</li>
+            </ul>
+            <div class="skills-img">
+                <img src="iconos/habilidades/icono-inge.svg" alt="icono">
+
+            </div>
+
+        </section>
+
+    </div>
+    <br id="proyec">
+    <link rel="stylesheet" href="estilos/proyectos.css">
+    <h2 class="titulopro">PROYECTOS</h2>
+    <div id="contenedorproyec" class="horizontal-padding vertical-padding">
+
+        <div class="proyectos" id="proyectos">
+            <div class="elep" onclick="alertta()">
+                <img class="imgp" src="fotos/proyect/pro1.png" alt="El Leñador">
+                <div class="detalle">
+                    <h4>Pagina web</h4>
+                    <p>"El Leñador"</p>
+                </div>
+            </div>
+            <div class="elep">2</div>
+            <div class="elep">3</div>
+            <div class="elep">4</div>
+            <div class="elep">5</div>
+            <div class="elep">6</div>
+            <div class="elep">7</div>
+            <div class="elep">8</div>
+            <div class="elep">9</div>
+
+        </div>
+    </div>
+
+    <h2 class="titulopro" id="contac">CONTACTOS</h2>
+    <div class="horizontal-padding vertical-padding" id="contacto">
+
+        <div class="elecont1">
+            <img src="iconos/habilidades/contacto.svg" alt="contacto">
+        </div>
+        <div class="elecont2">
+            <form>
+                Email: <input type="text" class="datos" name="email"><br> Nombre: <input type="text" class="datos" name="nombre"><br> Mensaje <br><textarea name="message" class="datos" rows="10" cols="30">Escribe aqui...</textarea><br><input type="submit"
+                    class="envia" value="Enviar">
+
+            </form>
+        </div>
+        <div class="elecont3">
+            <h2>REDES SOCIALES</h2>
+            <a href="https://github.com/MauricioTinco" target="_blank" class="red"><img src="iconos/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/mauriciolittertincopalomino/" target="_blank" class="red"><img src="iconos/linkedin.svg" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCoRD4jKJJ7EPmvDD8MQPUdQ" target="_blank" class="red"><img src="iconos/youtube.svg" alt=""></a>
+        </div>
+        <div class="elecont4">
+            <h2>CONTACTO</h2>
+            <p>
+                Direccion: San Luis-Cañete-Lima-Peru <br> Telefono: 936-284-061 <br> Correo: tincopalominomauricio@gmail.com
+            </p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

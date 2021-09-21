@@ -1,0 +1,73 @@
+.elep {
+    position: relative;
+}
+
+.elep>.imgp {
+    width: 100%;
+    height: 100%;
+}
+
+.titulopro {
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.elep>.detalle {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#contenedorproyec {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.proyectos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #CFA51D;
+}
+
+.elep {
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+@media (max-width:400px) {
+    .titulopro {
+        font-size: 30px;
+    }
+    .proyectos {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        padding: 5px;
+    }
+    .elep {
+        width: 150px;
+        height: 80px;
+        border-radius: 3px;
+    }
+    .elep>.detalle {
+        bottom: 2px;
+        right: 2px;
+        border-radius: 2px;
+        padding: 2px;
+        font-size: 12px;
+    }
+}
