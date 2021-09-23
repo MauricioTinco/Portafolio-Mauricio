@@ -1,8 +1,8 @@
 <h3>Installation</h3>
-<li>
-    <ol>Da click en codigo</ol>
-    <ol>Luego da click en Download ZIP</ol>
-</li>
+<ol>
+    <li>Da click en codigo</li>
+    <li>Luego da click en Download ZIP</li>
+</ol>
 
 Youtube
 -------
