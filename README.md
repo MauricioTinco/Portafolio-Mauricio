@@ -1,5 +1,4 @@
-Installation
-------------
+<h3>Installation</h3>
 <li>
     <ol>Da click en codigo</ol>
     <ol>Luego da click en Download ZIP</ol>
